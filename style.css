@@ -133,20 +133,29 @@ flex-direction: column;
     font-size: 1.5rem;  
     font-size: 2rem;
 }
-@media(max-width:764px){
-    .container{
- display: flex;
-        flex-direction: column;
-        margin: 0;
-    }
+     @media(max-width:764px){
+        .container{
+    display: flex;
+            flex-direction: column;
+            margin: 0;
+            overflow: hidden;
+        }
+        .logo{
+            margin-top: 10px;
+        }
+        .input{
+            display: flex;
+            flex-direction: column;
+            margin: 0;
     
-    .input{
-        display: flex;
-        flex-direction: column;
-        margin: 0;
-      
-    }
-    html{
-        font-size: 35%;
-    }
-}
+        
+        }
+        .input input{
+            text-align: center;
+        }
+        html{
+            font-size: 35%;
+        }
+    }  */
+      /* Add this in your CSS */
+  
