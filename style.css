@@ -26,6 +26,8 @@ body{
     height: 850px;
     background-size: cover;
 }
+/* navbar .start */
+
 .navbar{
    
     height: 100px;
@@ -66,6 +68,8 @@ justify-content: space-around;
 .nav-btn:hover{
     background-color: rgb(148, 11, 11);
 }
+/* navbar ended */
+/* navbar responsive */
 @media(max-width:768px){
     .navbar{
         /* flex-direction: column; */
@@ -84,6 +88,8 @@ justify-content: space-around;
     }
   
 }
+/* navbar responsive ended */
+ /* sec started  */
 .net-content{
   position: relative;
   width: 100%;
@@ -133,6 +139,8 @@ flex-direction: column;
     font-size: 1.5rem;  
     font-size: 2rem;
 }
+  /* sec ended  */
+  /* sec responsive */
      @media(max-width:764px){
         .container{
     display: flex;
@@ -156,6 +164,7 @@ flex-direction: column;
         html{
             font-size: 35%;
         }
-    }  */
-      /* Add this in your CSS */
+    }  
+    /* sec responsive ended */
+      
   
