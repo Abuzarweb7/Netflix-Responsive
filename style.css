@@ -397,3 +397,23 @@ font-size: 3rem;
   }
 }
 /* last-content ended */
+
+.type-text{
+  color: var(--white);
+  font-size: 2rem;
+}
+.footer-sec{
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+}
+.first-links a{
+  color: var(--white);
+  font-size: 1.6rem;
+}
+@media(max-width:784px){
+.footer-sec{
+  display: flex;
+  flex-direction: column;
+}
+}
